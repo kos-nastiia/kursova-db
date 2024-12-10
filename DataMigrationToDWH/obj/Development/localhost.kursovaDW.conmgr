@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.kursovaDW"
+  DTS:DTSID="{47CF9122-5BAE-4EBD-AB27-3150BD28BD67}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=kursovaDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-DataMigrationToDWH-{47CF9122-5BAE-4EBD-AB27-3150BD28BD67}localhost.kursovaDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
